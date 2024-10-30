@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+macroquad = "0.4"
+shipyard = "0.7"
+
+[profile.dev.package.'*']
+opt-level = 3
