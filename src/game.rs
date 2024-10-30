@@ -19,7 +19,7 @@ impl Game {
     pub async fn run(&mut self) {
         rand::srand(self.seed);
 
-        self.add_unique_delta_time();
+        self.init();
 
         loop {
             clear_background(DARKPURPLE);
@@ -43,7 +43,11 @@ impl Default for Game {
 }
 
 impl Game {
-    pub fn add_unique_delta_time(&mut self) {
+    pub fn init(&mut self) {
+        self.add_unique_delta_time();
+    }
+    
+    fn add_unique_delta_time(&mut self) {
         self.world.add_unique(DeltaTime(0.0));
     }
 }
