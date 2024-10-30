@@ -1,7 +1,7 @@
 use macroquad::prelude::*;
 
 #[derive(Debug)]
-pub struct Pos(Vec2);
+pub struct Pos(pub Vec2);
 
 impl Pos {
     pub fn new(x: f32, y: f32) -> Self {
@@ -18,7 +18,7 @@ impl Pos {
 }
 
 #[derive(Debug)]
-pub struct Shape(Pos, f32);
+pub struct Shape(pub Pos, f32);
 
 impl Shape {
     pub fn new(pos: Pos, size: f32) -> Self {

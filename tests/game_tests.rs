@@ -1,4 +1,4 @@
-use tiny_adventure::{game, player, Game};
+use tiny_adventure::{game, input, player, Game};
 
 #[test]
 fn test_new_game_with_seed() {
@@ -17,4 +17,7 @@ fn test_default_game_and_init() {
 
     let player = game.world.get_unique::<&player::Player>();
     assert!(player.is_ok());
+
+    let player_input = game.world.get_unique::<&input::PlayerInput>();
+    assert!(player_input.is_ok());
 }
