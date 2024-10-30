@@ -4,6 +4,9 @@ use shipyard::{Unique, UniqueViewMut, World};
 use crate::{input, player, renderer::render, shared::Shape};
 
 #[derive(Debug, Unique)]
+pub struct Boundry(pub f32, pub f32);
+
+#[derive(Debug, Unique)]
 pub struct DeltaTime(pub f32);
 
 #[derive(Debug)]
@@ -51,9 +54,14 @@ impl Default for Game {
 
 impl Game {
     pub fn init(&mut self, screen_width: f32, screen_height: f32) {
+        self.add_unique_boundry(screen_width, screen_height);
         self.add_unique_delta_time();
         self.add_unique_player(screen_width, screen_height);
         self.add_unique_player_input();
+    }
+
+    fn add_unique_boundry(&mut self, screen_width: f32, screen_height: f32) {
+        self.world.add_unique(Boundry(screen_width, screen_height));
     }
 
     fn add_unique_delta_time(&mut self) {

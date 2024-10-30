@@ -1,7 +1,7 @@
 use macroquad::prelude::*;
 use shipyard::{Unique, UniqueView, UniqueViewMut};
 
-use crate::{game::DeltaTime, input, shared::Shape};
+use crate::{game, input, shared::Shape};
 
 #[derive(Debug, Unique)]
 pub struct Player {
@@ -11,8 +11,12 @@ pub struct Player {
 impl Player {
     const MOVEMENT_SPEED: f32 = 100.0;
 
-    pub fn move_dir(&mut self, dir: Vec2, dt: f32) {
+    pub fn move_dir(&mut self, dir: Vec2, dt: f32, max_x: f32, max_y: f32) {
         self.shape.pos += dir * Self::MOVEMENT_SPEED * dt;
+
+        let size = self.shape.size / 2.0;
+        self.shape.pos.x = (self.shape.pos.x + dir.x).clamp(0.0 - size, max_x - size);
+        self.shape.pos.y = (self.shape.pos.y + dir.y).clamp(0.0 - size, max_y - size);
     }
 }
 
@@ -20,7 +24,8 @@ impl Player {
 pub fn move_player(
     input: UniqueView<input::PlayerInput>,
     mut player: UniqueViewMut<Player>,
-    dt: UniqueView<DeltaTime>,
+    dt: UniqueView<game::DeltaTime>,
+    boundry: UniqueView<game::Boundry>,
 ) {
     let mut dir = Vec2::ZERO;
 
@@ -40,5 +45,5 @@ pub fn move_player(
         dir.y = -1.0;
     }
 
-    player.move_dir(dir, dt.0);
+    player.move_dir(dir, dt.0, boundry.0, boundry.1);
 }
