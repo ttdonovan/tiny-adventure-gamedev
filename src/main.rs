@@ -1,10 +1,6 @@
-use macroquad::prelude::*;
-
+use tiny_adventure::Game;
 #[macroquad::main("Tiny Adventure")]
 async fn main() {
-    loop {
-        clear_background(DARKPURPLE);
-
-        next_frame().await;
-    }
+    let mut game = Game::default();
+    game.run().await;
 }
