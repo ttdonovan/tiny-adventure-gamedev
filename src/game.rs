@@ -1,6 +1,8 @@
 use macroquad::prelude::*;
 use shipyard::{Unique, UniqueViewMut, World};
 
+use crate::player::Player;
+
 #[derive(Debug, Unique)]
 pub struct DeltaTime(pub f32);
 
@@ -45,9 +47,14 @@ impl Default for Game {
 impl Game {
     pub fn init(&mut self) {
         self.add_unique_delta_time();
+        self.add_unique_player();
     }
     
     fn add_unique_delta_time(&mut self) {
         self.world.add_unique(DeltaTime(0.0));
+    }
+
+    fn add_unique_player(&mut self) {
+        self.world.add_unique(Player {});
     }
 }
