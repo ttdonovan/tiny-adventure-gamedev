@@ -12,8 +12,7 @@ impl Player {
     const MOVEMENT_SPEED: f32 = 100.0;
 
     pub fn move_dir(&mut self, dir: Vec2, dt: f32) {
-        let pos = &mut self.shape.0;
-        pos.0 += dir * Self::MOVEMENT_SPEED * dt;
+        self.shape.pos += dir * Self::MOVEMENT_SPEED * dt;
     }
 }
 

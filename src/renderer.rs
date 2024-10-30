@@ -9,7 +9,7 @@ pub(crate) fn render(world: &World) {
     draw_circle(
         player.shape.center().x,
         player.shape.center().y,
-        player.shape.size() / 2.0,
+        player.shape.size / 2.0,
         YELLOW,
     );
 }

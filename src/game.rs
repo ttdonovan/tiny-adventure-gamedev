@@ -1,11 +1,7 @@
 use macroquad::prelude::*;
 use shipyard::{Unique, UniqueViewMut, World};
 
-use crate::{
-    input, player,
-    renderer::render,
-    shared::{Pos, Shape},
-};
+use crate::{input, player, renderer::render, shared::Shape};
 
 #[derive(Debug, Unique)]
 pub struct DeltaTime(pub f32);
@@ -65,7 +61,7 @@ impl Game {
     }
 
     fn add_unique_player(&mut self, screen_width: f32, screen_height: f32) {
-        let pos = Pos::new(screen_width / 2.0, screen_height / 2.0);
+        let pos = Vec2::new(screen_width / 2.0, screen_height / 2.0);
         let shape = Shape::new(pos, 16.0);
         self.world.add_unique(player::Player { shape });
     }
