@@ -12,3 +12,4 @@
 ## Ideas/Examples
 
 * https://bevyengine.org/examples/
+* https://github.com/theseatoad/bevy-simple-2d-outline/blob/main/assets/shaders/outline_and_texture_material.wgsl
