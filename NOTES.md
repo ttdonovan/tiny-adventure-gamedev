@@ -13,3 +13,12 @@
 
 * https://bevyengine.org/examples/
 * https://github.com/theseatoad/bevy-simple-2d-outline/blob/main/assets/shaders/outline_and_texture_material.wgsl
+
+## Lists
+
+* https://github.com/ozkriff/awesome-quads
+* https://github.com/chevyray/rust-gamedev
+
+## Animations
+
+* https://eliasdaler.wordpress.com/2013/11/20/z-order-in-top-down-2d-games/
