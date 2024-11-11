@@ -1,6 +1,11 @@
 ## Videos
 
 * [Making a Colony Survival Game with Rust, Bevy, WebGPU, LDTK, Tilesetter and Aseprite | Stream Ep.1](https://youtu.be/Jcw_v1w7dbI?si=wi0oLzj2MEOXxLxs)
+*[The MUST Follow Roadmap For ALL Solo Developers](https://youtu.be/IeVxir50Q2Q?si=t5MjwOAXuThvKNP7)
+
+## Playlist
+
+* [How to Make an RPG in Godot 4](https://www.youtube.com/playlist?list=PL3cGrGHvkwn0zoGLoGorwvGj6dHCjLaGd)
 
 ## Tools
 
