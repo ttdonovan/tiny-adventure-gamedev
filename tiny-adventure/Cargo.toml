@@ -1,0 +1,8 @@
+[package]
+name = "tiny-adventure"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = { workspace = true }
+shipyard = { workspace = true }

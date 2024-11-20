@@ -1,0 +1,22 @@
+[package]
+name = "mini-games"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "animated"
+
+[[bin]]
+name = "bouncing_balls"
+
+[[bin]]
+name = "bubble_pop"
+
+[[bin]]
+name = "space_shooter"
+
+[dependencies]
+macroquad = { workspace = true }
+macroquad-tiled = "0.2"
+rapier2d = { version = "0.22", features = ["simd-stable"] }
+shipyard = { workspace = true }

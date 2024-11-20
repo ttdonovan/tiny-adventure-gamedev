@@ -1,0 +1,136 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Level_1.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/Tanner/Workspace/ttdonovan-gitlab/tiny-adventure-gamedev/assets/ldtk/simple-rpg-map/tiled/Level_0.tmx": {
+            "scale": 7.05078125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 127.92908587257621,
+                "y": 128
+            }
+        },
+        "C:/Users/Tanner/Workspace/ttdonovan-gitlab/tiny-adventure-gamedev/assets/ldtk/simple-rpg-map/tiled/Level_0.tmx#Decor": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Tanner/Workspace/ttdonovan-gitlab/tiny-adventure-gamedev/assets/ldtk/simple-rpg-map/tiled/Level_0.tmx#Fences": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Tanner/Workspace/ttdonovan-gitlab/tiny-adventure-gamedev/assets/ldtk/simple-rpg-map/tiled/Level_0.tmx#Plains": {
+            "scaleInDock": 1
+        },
+        "Grass.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Level_0.json": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 93.5,
+                "y": 275.33333333333337
+            }
+        },
+        "Level_0.json#Grass": {
+            "scaleInDock": 1
+        },
+        "Level_0.json#Objects": {
+            "scaleInDock": 1
+        },
+        "Level_0.json#Plains": {
+            "scaleInDock": 1
+        },
+        "Level_0.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 158.5,
+                "y": 575
+            }
+        },
+        "Level_0.tmx#Grass": {
+            "scaleInDock": 1
+        },
+        "Level_0.tmx#Objects": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "Level_0.tmx#Plains": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Level_1.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 979,
+                "y": 1016
+            }
+        },
+        "Level_1.tmx#Grass": {
+            "scaleInDock": 1
+        },
+        "Level_1.tmx#Objects": {
+            "scaleInDock": 1
+        },
+        "Level_1.tmx#plains": {
+            "scaleInDock": 1
+        },
+        "Objects.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 5.5
+        },
+        "grass.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "objects.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "plains.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 4
+        }
+    },
+    "last.exportedFilePath": "C:/Users/Tanner/Workspace/ttdonovan-gitlab/tiny-adventure-gamedev/assets/tiled/rpg",
+    "last.externalTilesetPath": "C:/Users/Tanner/Workspace/ttdonovan-gitlab/tiny-adventure-gamedev/assets/tiled/rpg",
+    "last.imagePath": "C:/Users/Tanner/Workspace/ttdonovan-gitlab/tiny-adventure-gamedev/assets/mystic_woods/objects",
+    "map.height": 80,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 120,
+    "openFiles": [
+        "Level_1.tmx"
+    ],
+    "project": "rpg.tiled-project",
+    "recentFiles": [
+        "grass.tsx",
+        "Level_1.tmx",
+        "objects.tsx",
+        "plains.tsx",
+        "Level_0.json",
+        "Level_0.tmx",
+        "Grass.tsx",
+        "Objects.tsx",
+        "C:/Users/Tanner/Workspace/ttdonovan-gitlab/tiny-adventure-gamedev/assets/ldtk/simple-rpg-map/tiled/Level_0.tmx"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

@@ -1,9 +1,11 @@
-[package]
-name = "tiny-adventure"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = [
+    "mini-games",
+    "tiny-adventure",
+]
+resolver = "2"
 
-[dependencies]
+[workspace.dependencies]
 macroquad = "0.4"
 shipyard = "0.7"
 
