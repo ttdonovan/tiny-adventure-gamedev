@@ -337,7 +337,8 @@ async fn main() -> Result<(), macroquad::Error> {
         let delta_time = get_frame_time() as f64;
 
         // rendering target
-        let render_target: RenderTarget = render_target(VIRTUAL_WIDTH as u32, VIRTUAL_HEIGHT as u32);
+        let render_target: RenderTarget =
+            render_target(VIRTUAL_WIDTH as u32, VIRTUAL_HEIGHT as u32);
         render_target.texture.set_filter(FilterMode::Nearest);
 
         // rendering target's camera

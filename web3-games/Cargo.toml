@@ -1,0 +1,17 @@
+[package]
+name = "web3-games"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "00_basic"
+
+# [[bin]]
+# name = "01_wallet"
+
+[dependencies]
+console_error_panic_hook = "0.1"
+log = "0.4"
+macroquad = { workspace = true }
+wasm-logger = "0.2"
+web3-solana-wallet-sdk = { path = "../crates/web3-solana-wallet-sdk" }

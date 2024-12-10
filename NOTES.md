@@ -25,6 +25,8 @@
 * https://github.com/rust-gamedev/rust-game-ports
 * https://mq.agical.se/index.html
 
+* https://www.raylib.com
+
 ## Lists
 
 * https://github.com/ozkriff/awesome-quads
@@ -41,6 +43,8 @@
 * https://github.com/Virus-Axel/godot-solana-sdk
 * https://www.youtube.com/watch?v=_WQr7Ipd7ek
 * https://www.youtube.com/watch?v=_xxMkRZIY98
+
+* https://github.com/GigaDAO/wasi-sol
 
 ## Camera
 
@@ -68,3 +72,7 @@ let max_y = camera_pos.y + half_height;
 
 * https://rapier.rs/docs/
 * https://rodneylab.com/rapier-physics-with-macroquad/
+
+## UI
+
+* https://github.com/actuate-rs/actuate

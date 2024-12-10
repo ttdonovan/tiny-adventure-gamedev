@@ -16,3 +16,7 @@ $ cargo run -p mini-games --bin space-shooter
 ## Tiny Adventure
 
 _WIP_
+
+## Web3 Games
+
+Experiment with connecting Rust games to Solana blockchain.

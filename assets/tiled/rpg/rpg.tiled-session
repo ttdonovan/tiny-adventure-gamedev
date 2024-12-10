@@ -71,10 +71,10 @@
         },
         "Level_1.tmx": {
             "scale": 0.5,
-            "selectedLayer": 1,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 979,
-                "y": 1016
+                "x": 1013,
+                "y": 14
             }
         },
         "Level_1.tmx#Grass": {
@@ -117,8 +117,8 @@
     ],
     "project": "rpg.tiled-project",
     "recentFiles": [
-        "grass.tsx",
         "Level_1.tmx",
+        "grass.tsx",
         "objects.tsx",
         "plains.tsx",
         "Level_0.json",

@@ -1,7 +1,9 @@
 [workspace]
 members = [
+    "crates/*",
     "mini-games",
     "tiny-adventure",
+    "web3-games",
 ]
 resolver = "2"
 
